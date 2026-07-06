@@ -1,0 +1,84 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# =========================================================================
+# Spring Boot & Build Tools
+# =========================================================================
+# Maven target directory (compiled code, packages, and reports)
+**/target/
+*.jar
+*.war
+*.ear
+*.cprof
+
+# Except the Maven/Gradle wrapper jars (if you want to track them)
+!.mvn/wrapper/maven-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle build directories
+**/.gradle/
+**/build/
+
+# =========================================================================
+# IDE & Editor Specific Files
+# =========================================================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/resources/archetype-resources/src/main/java/.placeholder
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# Visual Studio Code
+.vscode/
+
+# =========================================================================
+# Configuration, Logs, and Runtime Data
+# =========================================================================
+# Log files generated during application runtime
+*.log
+**/logs/
+
+# Crash logs
+hs_err_pid*
+replay_pid*
+
+# Local configuration overrides (uncomment if you use a local-only file)
+# application-local.properties
+# application-local.yml
+
+# =========================================================================
+# Operating System Files
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
